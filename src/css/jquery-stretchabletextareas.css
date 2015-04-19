@@ -1,0 +1,40 @@
+/* The body font style can be anything, this just gets rid of the ugly default serif font */
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10pt;
+}
+textarea{
+	border:1px solid #595b5d;
+	color:#333;
+	margin:0;
+	overflow:auto;/* Hides the ugly disabled scrollbar in Internet Explorer */
+	padding:1px;
+}
+/* Special class triggered by plugin to apply during dragging */
+textarea.activeDrag{
+	border:1px solid #26a0da;
+}
+/* Special div wrapper added by plugin */
+div.textareaWrapper{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width:400px;
+}
+/* Special div "grippy" added by plugin */
+div.textareaGrippy{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALAgMAAADUwp+1AAAADFBMVEUAAAC6urqioqJ9fX16zfuwAAAAAXRSTlMAQObYZgAAAB5JREFUCNdjgIAGBgbGAxCmApBdCGFzANkyQDYUAABp2gUIclV3OwAAAABJRU5ErkJggg==);
+	background-position:100% 100%;
+	background-repeat:no-repeat;
+	border:0;
+	cursor:nw-resize;
+	display:block;
+	float:right;
+	height:17px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	-ms-user-select:none;
+	user-select:none;
+	width:17px;
+}
