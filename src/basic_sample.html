@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;IE=10;IE=9;IE=8,chrome=1"/>
+	<title>Stretchable Textareas - Basic Sample</title>
+	<link type="text/css" rel="stylesheet" href="css/jquery-stretchabletextareas.css"/>
+</head>
+<body>
+	<p>This textarea is stretchable in all browsers now, including Internet Explorer! ;-)</p>
+	<form>
+		<textarea cols="20" rows="3">This is a textarea.
+It has text in it.
+On 3 lines.</textarea>
+	</form>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-stretchabletextareas.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Enable on all textarea elements
+			$('textarea').stretchabletextareas();
+		});
+	</script>
+</body>
+</html>
