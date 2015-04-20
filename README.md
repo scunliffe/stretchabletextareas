@@ -3,7 +3,7 @@ A jQuery plugin to enable stretchable textareas in Internet Explorer.
 
 Users of all? other desktop web browsers have long enjoyed the usability feature of stretchable textareas in their browsers.
 
-{{add GIF here}}
+![StretchableTextareas Example][1]
 
 Complete user-control over the size of the textarea (width/height) ensures that the user can get the exact size they need, regardless of what the developer thought/guessed they wanted.
 
@@ -16,3 +16,4 @@ There's really no downside to enabling stretching a textarea (unless your layout
 
 Introducing StretchableTextareas for Internet Explorer 8, 9, 10, 11, & Project Spartan.  This simple jQuery plugin will automatically "enable" stretchable textareas in IE.
 
+[1]: https://raw.githubusercontent.com/scunliffe/stretchabletextareas/master/ieStretchableTextareas.gif
