@@ -16,4 +16,9 @@ There's really no downside to enabling stretching a textarea (unless your layout
 
 Introducing StretchableTextareas for Internet Explorer 8, 9, 10, 11, & Microsoft Edge.  This simple jQuery plugin will automatically "enable" stretchable textareas in IE/Edge.
 
+Note while Internet Explorer (all versions) and legacy Microsoft Edge (built on the Trident engine) are basically EOL now, I'm keeping this updated example here for reference.
+
 [1]: https://raw.githubusercontent.com/scunliffe/stretchabletextareas/master/ieStretchableTextareas.gif
+
+## Release Notes
+* Updated the sample page to use the latest jQuery version (will not work in IE 8) so that the GitHub dependabot will stop spamming me about old jQuery version vulnerabilities ;-)
