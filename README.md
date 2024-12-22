@@ -1,5 +1,5 @@
 # StretchableTextareas
-A jQuery plugin to enable stretchable textareas in Internet Explorer and Microsoft Edge.
+A jQuery plugin to enable stretchable textareas in Internet Explorer and legacy Microsoft Edge.
 
 Users of all? other desktop web browsers have long enjoyed the usability feature of stretchable textareas in their browsers.
 
